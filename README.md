@@ -1,0 +1,1 @@
+This is an educational assignment for educational purposes for students in Software Development classes

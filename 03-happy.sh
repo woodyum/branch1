@@ -1,16 +1,14 @@
 #!/bin/sh
+@@ -15,7 +17,18 @@ product=$(( first*second*third ))
 
-echo "You are happy?"
-read answer
+echo "The product is $product"
 
-if [ "$answer" = "yes" ]; then
-   echo "hmmmm gooood yess you are happy"
-else
-   echo "Still Smile c:"
-fi
+echo "Enter the width of your screen"
+read width
+echo "Enter the height of your screen"
+read height
 
-# here are the other string comparison operators
-# != , -n (not an empty string) , -z (an empty string)
+pixel=$(( width*height))
 
-# exercise: write a script that prints whether today is
-# the weekend or not
+echo "The total pixel on the screen is $pixel"
+

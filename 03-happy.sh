@@ -1,14 +1,15 @@
-#!/bin/sh
-@@ -15,7 +17,18 @@ product=$(( first*second*third ))
+#!/bin/bash
 
-echo "The product is $product"
+# Prompt the user to enter the first number
+echo "Enter the first number:"
+read num1
 
-echo "Enter the width of your screen"
-read width
-echo "Enter the height of your screen"
-read height
+# Prompt the user to enter the second number
+echo "Enter the second number:"
+read num2
 
-pixel=$(( width*height))
+# Perform the addition
+sum=$((num1 + num2))
 
-echo "The total pixel on the screen is $pixel"
-
+# Display the result
+echo "The sum of $num1 and $num2 is: $sum"
